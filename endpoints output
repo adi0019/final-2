@@ -1,0 +1,24 @@
+{
+"text": " he go to store to buy applee and braed for his lunch"
+
+}
+
+{
+    "accuracy": 83.33333333333334,
+    "corrected_sentences": [
+        "he go to store to buy apple and bared for his lunch"
+    ],
+    "errors": [
+        "Spelling error: applee, Suggestions: apple, apples, applet, app lee, app-lee, apple e, Apple, appellee",
+        "Spelling error: braed, Suggestions: bared, bread, barde, beard, braes, brae, brad, bred, braced, brayed, braved, braked, brazed, breed, braid",
+        "Grammar error: UPPERCASE_SENTENCE_START - This sentence does not start with an uppercase letter.",
+        "Grammar error: HE_VERB_AGR - The pronoun ‘he’ is usually used with a third-person or a past tense verb."
+    ],
+    "grammar_errors": 2,
+    "spelling_errors": 2
+}
+
+
+{
+    "word_count": 12
+}
