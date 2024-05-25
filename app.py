@@ -61,7 +61,7 @@ def count_words(text):
     words = word_tokenize(text)
     return len(words)
 
-@app.route('/', methods=['POST'])
+@app.route('/check', methods=['POST'])
 def check_text():
     data = request.json
     text = data.get('text')
